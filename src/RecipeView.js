@@ -4,8 +4,6 @@ import { Recipe } from './Recipe';
 import { storeData, retrieveData } from './DataStorage'
 import { AddRecipeModal } from './AddRecipeModal';
 
-storeData(key, value)
-retrieveData(key)
 
 const RecipeView = ({ navigation }) => {
   const [recipe, setRecipe] = useState([])
